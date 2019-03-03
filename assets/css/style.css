@@ -1,0 +1,480 @@
+.Menu {
+  position: fixed;
+  top:0;
+  right:0;
+  left:0;
+  margin: auto;
+  height: 75px;
+  background: rgb(206, 203, 203);
+  border: 10px solid goldenrod;
+  border-style:outset;
+  z-index: 1;
+
+}
+
+.header{
+  width: 960px;
+  margin:auto;
+
+}
+
+.navbar a{
+  padding:20px;
+
+}
+
+.Name{
+  /* position: fixed; */
+  background: rgb(5, 5, 46);
+  color: goldenrod;
+  padding:10px;
+  margin:auto;
+
+  font-size: 20px;
+  text-align: center;
+  font-family: 'Great Vibes', cursive;
+  float: left;
+
+  line-height:1px;
+}
+
+.navbar a{
+  padding:25px;
+}
+
+.navbar a{
+    text-decoration: none;
+    color:rgb(5, 5, 46);
+
+    /* margin-top:40px;
+    margin-left: 800px;
+    margin-right: 100px; */
+    font-family:cursive;
+    float: right;
+    /* width:960px; */
+
+
+  }
+
+  a:visited {
+    color:rgb(5, 5, 46);
+    text-decoration:line-through;
+  }
+
+  a:hover {
+    text-decoration: overline;
+    color:goldenrod;
+    background-color:rgb(5, 5, 46) ;
+  }
+
+  a:active {
+    text-decoration: underline;
+    background-color: goldenrod;
+    color:rgb(5, 5, 46);
+  }
+
+
+
+  /* b:link {
+    text-decoration: none;
+    color:#cec8ce;
+    position: fixed;
+    margin-top:40px;
+    margin-left: 800px;
+    margin-right: 100px;
+  }
+
+  b:visited {
+    text-decoration: none;
+  }
+
+  b:hover {
+    text-decoration: underline;
+  }
+
+  b:active {
+    text-decoration: underline;
+  } */
+
+  body{
+    background-image:url(http://printedwallpapercompany.com/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/n/a/navy-and-gold-geometric.jpg);
+    width: 960px;
+    margin:auto;
+    height:auto;
+
+  }
+
+  /* .box{
+    margin:auto;
+
+  } */
+
+
+  .aboutme{
+    background-color: rgb(206, 203, 203);
+    /* float:left; */
+    padding:10px;
+    width:960px;
+    margin:140px 0px 140px 0px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    border: 10px solid rgb(194, 191, 191);
+    border-style:outset;
+    height:100%;
+    overflow:hidden;
+
+  }
+
+  h2{
+    color:rgb(5, 5, 46);
+    font-size: 40px;
+    line-height: 0px;
+  }
+
+  #profilepic{
+    width:200px;
+    float:left;
+    margin:10px;
+
+
+  }
+
+  p{
+    display:block;
+    margin-block-start:1em;
+    margin-block-end:1em;
+    margin-inline-start:0px;
+    margin-inline-end:1em;
+
+  }
+
+  .bodytext{
+   font-size: 16px;
+   color:rgb(5, 5, 46);
+    /* word-wrap:break-word; */
+    /* float:left; */
+
+  }
+
+  .clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+    overflow:auto;
+
+  }
+
+  .format{
+    float:center;
+  }
+
+  footer{
+    position: fixed;
+    bottom:0;
+    right:0;
+    left:0;
+    margin: auto;
+    height: 75px;
+    background: rgb(5, 5, 46);
+    border-top: 10px solid goldenrod;
+    border-left: 10px solid rgb(5, 5, 46);
+    color: rgb(194, 191, 191);
+    text-align:center;
+
+  }
+
+  .Portfolio{
+    background-color: rgb(206, 203, 203);
+    float:center;
+    font-family:cursive;
+    padding:10px;
+    width:960px;
+    margin:auto;
+    margin-top:120px;
+    margin-bottom: 100px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    border: 10px solid rgb(194, 191, 191);
+    border-style:outset;
+    height: 850px;
+  }
+
+  .clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  .container{
+    /* float:left; */
+    position: relative;
+
+  }
+
+  #dance {
+    width:310px;
+    height:210px;
+    float:left;
+    margin:20px;
+
+  }
+
+  #games {
+    width:310px;
+    height:210px;
+    float:left;
+    margin:20px;
+  }
+
+  #experience{
+    width:310px;
+    height:210px;
+    float:left;
+    margin:20px;
+  }
+
+#favorites{
+    width:310px;
+    height:210px;
+    float:left;
+    margin:20px;
+  }
+#plans{
+    width:310px;
+    height:210px;
+    float:left;
+    margin:20px;
+  }
+
+  .btn1{
+    padding:10px;
+    opacity:0.7;
+    position: absolute;
+    top: 185px;
+    left: 25px;
+    width:100%;
+    max-width:300px;
+    text-align:center;
+    font-size:16px;
+    cursor:pointer;
+    /* z-index: -1; */
+  }
+
+  .btn2{
+    padding:10px;
+    opacity:0.7;
+    position:absolute;
+    top: 185px;
+    left: 375px;
+    width:100%;
+    max-width:300px;
+    text-align:center;
+    font-size:16px;
+    cursor:pointer;
+  }
+
+  .btn3{
+    padding:10px;
+    opacity:0.7;
+    position:absolute;
+    top: 435px;
+    left: 25px;
+    width:100%;
+    max-width:300px;
+    text-align:center;
+    font-size:16px;
+    cursor:pointer;
+  }
+
+  .btn4{
+    padding:10px;
+    opacity:0.7;
+    position:absolute;
+    top: 435px;
+    left: 375px;
+    width:100%;
+    max-width:300px;
+    text-align:center;
+    font-size:16px;
+    cursor:pointer;
+  }
+
+  .btn5{
+    padding:10px;
+    opacity:0.7;
+    position:absolute;
+    top: 685px;
+    left: 25px;
+    width:100%;
+    max-width:300px;
+    text-align:center;
+    font-size:16px;
+    cursor:pointer;
+  }
+
+  .contacts{
+    background-color: rgb(206, 203, 203);
+    float:center;
+    font-family:cursive;
+    padding:10px;
+    width:960px;
+    margin-top:135px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    border: 10px solid rgb(194, 191, 191);
+    border-style:outset;
+    height: 100%;
+    overflow: hidden;
+  }
+
+  form{
+    font-size:28px;
+  }
+
+  input {
+    width:100%;
+    height:28px;
+  }
+
+  textarea {
+    width:100%;
+  }
+
+
+  @media screen and (max-width:980px){
+    .navbar a{
+      float: left;
+      display: block;
+    }
+    .Name{
+      font-size:20px;
+    }
+    body{
+      max-width:960px;
+    }
+
+    .aboutme{
+      max-width: 960px;
+    }
+
+    #profilepic{
+      width:125px;
+    }
+
+    #dance {
+      width:240px;
+    }
+
+    #games {
+      width:240px;
+    }
+
+    #experience{
+      width:240px;
+    }
+
+  #favorites{
+      width:240px;
+    }
+
+  #plans{
+      width:2400px;
+    }
+
+    .contacts{
+      max-width: 960px;
+    }
+
+  }
+
+
+ @media screen and (max-width:768px) {
+  .navbar a{
+    float: left;
+    display: block;
+  }
+  .Name{
+    font-size:15px;
+  }
+  body{
+    max-width:760px;
+  }
+
+  .aboutme{
+    max-width: 760px;
+    margin:0px;
+  }
+
+  #profilepic{
+    width:100px;
+  }
+
+  form{
+    font-size:20px;
+  }
+
+ }
+
+ @media screen and (max-width:640px){
+  .navbar a{
+    float: left;
+    display: block;
+    font-size:15px;
+   }
+   .Name{
+    font-size:15px;
+  }
+
+  .Portfolio{
+    max-width:620px;
+  }
+
+  #dance {
+    width:225px;
+    float:left;
+    margin:20px;
+
+  }
+
+  #games {
+    width:225px;
+    float:left;
+    margin:20px;
+  }
+
+  #experience{
+    width:225px;
+    float:left;
+    margin:20px;
+  }
+
+#favorites{
+    width:225px;
+    float:left;
+    margin:20px;
+  }
+#plans{
+    width:225px;
+    float:left;
+    margin:20px;
+  }
+
+  .btn1{
+    width:218px;
+  }
+
+  .btn2{
+    width:218px;
+    left: 290px;
+  }
+  .btn3{
+    width:218px;
+  }
+  .btn4{
+    width:218px;
+    left: 290px;
+  }
+  .btn5{
+    width:218px;
+  }
+
+ forms{
+   font-size:15px;
+ }
